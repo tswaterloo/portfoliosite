@@ -1,0 +1,133 @@
+"use client"
+import { Linkedin, Mail, ExternalLink, Code2, Cpu, Wrench, Brain, Zap, Microscope as Microchip } from "lucide-react"
+import { useEffect, useState } from "react"
+import { TypewriterText } from "@/components/typewriter-text"
+
+export function Hero() {
+  const [isVisible, setIsVisible] = useState(false)
+
+  useEffect(() => {
+    setIsVisible(true)
+  }, [])
+
+  const skillIcons = [
+    { icon: Code2, label: "Software", color: "text-cyan-400" },
+    { icon: Microchip, label: "Embedded", color: "text-purple-400" },
+    { icon: Zap, label: "Hardware", color: "text-yellow-400" },
+    { icon: Wrench, label: "CAD", color: "text-green-400" },
+    { icon: Cpu, label: "Robotics", color: "text-blue-400" },
+    { icon: Brain, label: "AI/ML", color: "text-pink-400" },
+  ]
+
+  return (
+    <section id="home" className="min-h-screen flex items-center justify-center pt-32 relative">
+      <div className="container mx-auto px-6 relative z-10">
+        <div
+          className={`max-w-4xl mx-auto text-center transition-all duration-1000 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          }`}
+        >
+          <div className="mb-8 space-y-4">
+            <span className="text-3xl md:text-4xl lg:text-5xl font-light block tracking-wide bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent animate-gradient bg-[length:200%_200%]">
+              Hi, I'm
+            </span>
+            <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-balance bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent animate-gradient bg-[length:200%_200%] leading-[1.1]">
+              Tanush Shah
+            </h1>
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 leading-tight">
+              <span className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent animate-gradient bg-[length:200%_200%]">
+                <TypewriterText
+                  texts={[
+                    "Electrical Engineering Student",
+                    "Robotics Engineer",
+                    "Full Stack Developer",
+                    "Embedded Systems Developer",
+                    "Firmware Engineer",
+                    "AI/ML Enthusiast",
+                  ]}
+                />
+              </span>
+            </h2>
+          </div>
+
+          <p className="text-xl md:text-2xl text-muted-foreground mb-6 text-balance font-medium">
+            Electrical Engineering @ University of Waterloo
+          </p>
+          <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
+            Electrical engineering student looking to solve difficult problems and make an impact. Hands-on experience
+            in software development, robotics, embedded systems, hardware | Prev: VEX Robotics World Finalist, ECE
+            Research @ Hofstra University, special AI showcase presenter @ Robotics World Championship in Dallas.
+          </p>
+
+          <div className="flex items-center justify-center gap-4 mb-10 flex-wrap">
+            {skillIcons.map((skill, index) => {
+              const Icon = skill.icon
+              return (
+                <div
+                  key={skill.label}
+                  className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-all hover:scale-105 cursor-default group"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <Icon className={`h-4 w-4 ${skill.color}`} />
+                  <span className="text-sm font-medium relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-current group-hover:after:w-full after:transition-all after:duration-300">
+                    {skill.label}
+                  </span>
+                  {index < skillIcons.length - 1 && <span className="text-border/50 ml-2">/</span>}
+                </div>
+              )
+            })}
+          </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-6 mb-12">
+            <a
+              href="#projects"
+              className="group inline-flex items-center gap-2 text-lg font-medium text-foreground hover:text-primary transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary hover:after:w-full after:transition-all after:duration-300"
+            >
+              View Projects
+              <ExternalLink className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </a>
+            <span className="text-border">|</span>
+            <a
+              href="#contact"
+              className="text-lg font-medium text-muted-foreground hover:text-foreground transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-foreground hover:after:w-full after:transition-all after:duration-300"
+            >
+              Get in Touch
+            </a>
+          </div>
+
+          <div className="flex items-center justify-center gap-6">
+            <a
+              href="https://linkedin.com/in/tanush-shah17"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-secondary transition-all hover:scale-110"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-6 w-6" />
+            </a>
+            <a
+              href="mailto:t67shah@uwaterloo.ca"
+              className="text-muted-foreground hover:text-accent transition-all hover:scale-110"
+              aria-label="Email"
+            >
+              <Mail className="h-6 w-6" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="absolute top-1/4 left-10 w-20 h-20 bg-primary/10 rounded-full blur-3xl animate-float" />
+      <div
+        className="absolute bottom-1/4 right-10 w-32 h-32 bg-secondary/10 rounded-full blur-3xl animate-float"
+        style={{ animationDelay: "2s" }}
+      />
+      <div
+        className="absolute top-1/2 right-1/4 w-24 h-24 bg-accent/10 rounded-full blur-3xl animate-float"
+        style={{ animationDelay: "4s" }}
+      />
+    </section>
+  )
+}

@@ -1,0 +1,31 @@
+"use client"
+
+import { Hero } from "@/components/hero"
+import { About } from "@/components/about"
+import { Experience } from "@/components/experience"
+import { Skills } from "@/components/skills"
+import { TechStack } from "@/components/tech-stack"
+import { Contact } from "@/components/contact"
+import { Navigation } from "@/components/navigation"
+import { ScrollProgress } from "@/components/scroll-progress"
+import { InteractiveGridBackground } from "@/components/interactive-grid-background"
+import { LiveMetrics } from "@/components/live-metrics"
+import { Projects } from "@/components/projects"
+
+export default function Home() {
+  return (
+    <main className="min-h-screen relative">
+      <InteractiveGridBackground />
+      <ScrollProgress />
+      <Navigation />
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Skills />
+      <TechStack />
+      <LiveMetrics />
+      <Contact />
+    </main>
+  )
+}
