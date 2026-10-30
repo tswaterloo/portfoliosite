@@ -111,10 +111,9 @@ export default function Home() {
   return (
     <main>
       <h1>Tanush Shah</h1>
-      <p>
-        I'm an electrical engineering student at the University of Waterloo. This term I'm trading at StageRail
-        Capital and building data and AI systems at Petra Lab X.
-      </p>
+      <p className="muted">Electrical Engineering, University of Waterloo</p>
+
+      <p>Currently trading systematic strategies at StageRail Capital and building LLM agents at Petra Lab X.</p>
 
       <div className="links">
         <a href="mailto:t67shah@uwaterloo.ca">t67shah@uwaterloo.ca</a>
