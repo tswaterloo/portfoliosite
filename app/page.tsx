@@ -44,7 +44,7 @@ const earlier: Entry[] = [
     name: "Robot Revolution",
     role: "Captain, lead programmer",
     dates: "2017 – 2025",
-    text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams worldwide. Won a Worlds division and two New Jersey championships along the way.",
+    text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams worldwide, winning a Worlds division and two New Jersey championships along the way.",
   },
   {
     name: "Hofstra University",
