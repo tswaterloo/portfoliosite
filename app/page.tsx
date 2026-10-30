@@ -44,19 +44,19 @@ const earlier: Entry[] = [
     name: "Robot Revolution",
     role: "Captain, lead programmer",
     dates: "2017 – 2025",
-    text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams worldwide.",
+    text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams worldwide. Won a Worlds division and two New Jersey championships along the way.",
   },
   {
     name: "Hofstra University",
     role: "Research intern",
     dates: "2024 – 2025",
-    text: "Engineering research, including the motion control for a large-format 3D printer.",
+    text: "Designed, built and programmed a modular large-format gantry 3D printer, end to end.",
   },
   {
     name: "Millburn AI",
     role: "Software director",
     dates: "2021 – 2023",
-    text: "The only AI team picked for the VEX Worlds showcase.",
+    text: "The only AI team picked for the VEX Worlds showcase. Made the robot's onboard AI 5x faster on a Jetson Nano.",
   },
 ]
 
