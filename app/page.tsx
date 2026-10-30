@@ -10,13 +10,13 @@ const work: Entry[] = [
     name: "StageRail Capital",
     role: "Quantitative Trader",
     dates: "Sep 2026 – now",
-    text: "Running a $100K multi-asset book across systematic and discretionary strategies. The book has a 2.1 Sharpe, and I built the quant research stack it runs on.",
+    text: "$100K multi-asset book, systematic and discretionary, running at a 2.1 Sharpe. Rebuilt the firm's entire research and deployment pipeline.",
   },
   {
     name: "Petra Lab X",
     role: "Senior Engineering Intern",
     dates: "Sep – Dec 2026",
-    text: "Architected an agentic AI platform on top of a knowledge graph of the company's core systems. Its agents can reconstruct the full history of any transaction across 100k+ live records.",
+    text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
   },
   {
     name: "Petra Lab X",
@@ -86,7 +86,11 @@ export default function Home() {
       <h1>Tanush Shah</h1>
       <p className="muted">Electrical Engineering, University of Waterloo</p>
 
-      <p>I trade at StageRail Capital and build agentic AI at Petra Lab X.</p>
+      <p>
+        Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X. On the side, a C++
+        matching engine and a prediction-market arbitrage scanner. Before Waterloo, eight years of competitive
+        robotics, ending in a VEX World Championship final.
+      </p>
 
       <div className="links">
         <a href="mailto:t67shah@uwaterloo.ca">t67shah@uwaterloo.ca</a>
