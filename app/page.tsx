@@ -54,7 +54,7 @@ const projects: Entry[] = [
     points: [
       "Multi-threaded C++ matching engine with O(1) cancellation, handling 100k+ orders/sec.",
       "Inventory-skewing market maker that cut max drawdown 35% in simulated high-volatility regimes.",
-      "Pairs trading on equities, using ADF cointegration tests to find mean-reverting pairs.",
+      "Equity stat arb strategy that uses ADF cointegration tests to find mean-reverting pairs.",
       "PyTorch model for next-tick direction from order book features like imbalance and VWAP deviation.",
     ],
   },
@@ -126,7 +126,7 @@ export default function Home() {
       </p>
 
       <div className="links">
-        <a href="mailto:t67shah@uwaterloo.ca">Email</a>
+        <a href="mailto:t67shah@uwaterloo.ca">t67shah@uwaterloo.ca</a>
         <a href="https://linkedin.com/in/tanush-shah17">LinkedIn</a>
       </div>
 
