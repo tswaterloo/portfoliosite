@@ -1,4 +1,4 @@
-# tanushshah.vercel.app
+# tanushshah.com
 
 Personal site. One page, plain CSS, no client JavaScript beyond what Next ships.
 

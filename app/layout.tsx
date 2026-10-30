@@ -4,7 +4,7 @@ import "./globals.css"
 const description = "Electrical engineering at the University of Waterloo. Trading, ML, and systems."
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tanushshah.vercel.app"),
+  metadataBase: new URL("https://tanushshah.com"),
   title: "Tanush Shah",
   description,
   openGraph: {
