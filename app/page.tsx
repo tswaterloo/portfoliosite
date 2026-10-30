@@ -22,9 +22,9 @@ const work: Entry[] = [
     role: "Senior Engineering Intern",
     dates: "Sep – Dec 2026",
     points: [
-      "Built a knowledge graph that ties the company's ERP, email and documents into one ontology",
-      "LLM agents walk the graph to reconstruct the full history of any transaction",
-      "Incremental sync keeps it current across 100k+ live records",
+      "Architected an agentic AI platform that unifies the company's core systems into one knowledge graph",
+      "Shipped AI agents that reason across it to reconstruct the full history of any transaction",
+      "Running in production on 100k+ live records",
     ],
   },
   {
