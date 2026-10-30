@@ -3,7 +3,6 @@ type Entry = {
   role?: string
   dates: string
   points: string[]
-  links?: { label: string; href: string }[]
 }
 
 const work: Entry[] = [
@@ -68,16 +67,14 @@ const earlier: Entry[] = [
     dates: "2017 – 2025",
     points: [
       "VEX Robotics World Championship finalist, top 2 of 20,000 teams. Also a Worlds division champion and 2x New Jersey champion.",
-      "Wrote the drive and autonomous code in C++. Five award-winning engineering notebooks.",
+      "Wrote the drive and autonomous code in C++.",
     ],
-    links: [{ label: "Engineering notebook", href: "https://bit.ly/46tg7gQ" }],
   },
   {
     name: "Hofstra University",
     role: "Research intern, Prof. Edward M. Segal",
     dates: "2024 – 2025",
-    points: ["Designed and programmed a modular large-format gantry 3D printer, including motion control and G-code execution."],
-    links: [{ label: "Research showcase", href: "https://bit.ly/48rf9Ej" }],
+    points: ["Wrote the motion control and G-code execution for a modular large-format 3D printer."],
   },
   {
     name: "Millburn AI",
@@ -85,13 +82,6 @@ const earlier: Entry[] = [
     dates: "2021 – 2023",
     points: [
       "Only AI team picked for the VEX Worlds showcase. Ran YOLOv5 on a Jetson Nano and took it from 1.5 to 8 FPS with TensorRT.",
-    ],
-    links: [
-      { label: "Team site", href: "https://bit.ly/3KyGHh4" },
-      {
-        label: "Season reveal",
-        href: "https://drive.google.com/file/d/1EV52fv9Jz3QZ3ZjrAwzmMLWUji5pTvyy/view?usp=sharing",
-      },
     ],
   },
 ]
@@ -114,15 +104,6 @@ function Section({ title, entries }: { title: string; entries: Entry[] }) {
               <li key={p}>{p}</li>
             ))}
           </ul>
-          {e.links && (
-            <div className="entry-links">
-              {e.links.map((l) => (
-                <a key={l.href + l.label} href={l.href}>
-                  {l.label}
-                </a>
-              ))}
-            </div>
-          )}
         </div>
       ))}
     </section>
