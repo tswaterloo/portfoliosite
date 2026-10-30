@@ -11,10 +11,10 @@ const work: Entry[] = [
     role: "Quantitative Trader",
     dates: "Sep 2026 – now",
     points: [
-      "Trade $100K of private capital across systematic equity and futures strategies with full discretion",
-      "Rebuilt the research stack into a walk-forward backtesting and paper-to-live pipeline on AWS",
-      "Enforce hard limits on leverage, exposure and drawdown, backed by an automated kill switch",
-      "Stress-tested 50+ strategies for overfitting, look-ahead bias and costs, promoting only out-of-sample survivors",
+      "Managing $100K of private capital across systematic equity and futures strategies",
+      "Rebuilt the research stack so strategies go from walk-forward backtests to paper trading to live",
+      "Risk is fully automated, with hard limits on leverage, exposure and drawdown and a kill switch",
+      "Tested 50+ strategies for overfitting and look-ahead bias, and only the out-of-sample survivors go live",
     ],
   },
   {
@@ -22,9 +22,9 @@ const work: Entry[] = [
     role: "Senior Engineering Intern",
     dates: "Sep – Dec 2026",
     points: [
-      "Shipped LLM agents that reconstruct the full history of any transaction",
-      "Designed the typed graph underneath, unifying 4 production systems (ERP, portal, Outlook, SharePoint)",
-      "Built the incremental, idempotent sync over REST and Microsoft Graph that keeps 100k+ records current",
+      "Built a knowledge graph that ties the company's ERP, email and documents into one ontology",
+      "LLM agents walk the graph to reconstruct the full history of any transaction",
+      "Incremental sync keeps it current across 100k+ live records",
     ],
   },
   {
@@ -32,8 +32,9 @@ const work: Entry[] = [
     role: "Software & ML Intern",
     dates: "Jan – Apr 2026",
     points: [
-      "Built a robotic picking system with 3D perception and cobot grasping to replace manual work",
-      "Trained a segmentation model to 95% mAP50 on a custom 5,000+ image dataset and served it on Azure as a distributed service",
+      "Built a robotic picking system that replaced manual work with a cobot",
+      "Owned the full pipeline: 3D point clouds, pose estimation and grasp execution",
+      "Shipped it to production as a distributed async service on Azure",
     ],
   },
 ]
@@ -43,18 +44,18 @@ const projects: Entry[] = [
     name: "Prediction-market arbitrage",
     dates: "Oct 2026 – now",
     points: [
-      "Real-time scanner across 10+ sportsbooks, Kalshi and Polymarket that de-vigs odds and flags arbitrage",
-      "Calibrated fair prices against a full NFL season of settled outcomes to separate real edge from noise",
+      "Scans 10+ sportsbooks, Kalshi and Polymarket in real time, strips out the vig and flags arbitrage",
+      "Checked fair prices against a full NFL season of results to tell real edge from noise",
     ],
   },
   {
     name: "Limit order book & market making",
     dates: "Jan 2026 – now",
     points: [
-      "Multi-threaded C++ matching engine with O(1) cancels, processing 100k+ orders/sec",
-      "Inventory-skewing market maker that cut max drawdown 35% in high-volatility simulations",
-      "Stat arb on mean-reverting equity pairs found with ADF cointegration tests",
-      "Next-tick direction model built on order book imbalance and VWAP deviation",
+      "Multi-threaded C++ matching engine doing 100k+ orders/sec with O(1) cancels",
+      "A market maker that skews quotes by inventory, cutting max drawdown 35% in volatile simulations",
+      "Stat arb that uses cointegration tests to find mean-reverting equity pairs",
+      "A model that predicts the next tick from order book imbalance and VWAP deviation",
     ],
   },
 ]
@@ -65,17 +66,15 @@ const earlier: Entry[] = [
     role: "Captain, lead programmer",
     dates: "2017 – 2025",
     points: [
-      "Led a 6-person team to the VEX Robotics World Championship finals, top 2 of 20,000 teams",
-      "Won a Worlds division and two New Jersey championships",
+      "Led a 6-person team to the VEX World Championship finals, top 2 of 20,000 teams",
+      "Won a Worlds division and two New Jersey championships along the way",
     ],
   },
   {
     name: "Hofstra University",
     role: "Research intern, Prof. Edward M. Segal",
     dates: "2024 – 2025",
-    points: [
-      "Wrote the motion control and G-code execution for a large-format 3D printer",
-    ],
+    points: ["Wrote the motion control and G-code execution for a large-format 3D printer"],
   },
   {
     name: "Millburn AI",
@@ -83,7 +82,7 @@ const earlier: Entry[] = [
     dates: "2021 – 2023",
     points: [
       "Only AI team picked for the VEX Worlds showcase",
-      "Sped up on-robot vision 5x on a Jetson Nano",
+      "Made the robot's onboard AI 5x faster on a Jetson Nano",
     ],
   },
 ]
