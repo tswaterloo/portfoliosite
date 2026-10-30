@@ -13,8 +13,8 @@ const work: Entry[] = [
     points: [
       "Trade $100K of private capital across systematic equity and futures strategies with full discretion",
       "Rebuilt the research stack into a walk-forward backtesting and paper-to-live pipeline on AWS",
-      "Built the risk layer: leverage, exposure and drawdown limits backed by an automated kill switch",
-      "Stress-tested 50+ strategies for overfitting, look-ahead bias and costs before any went live",
+      "Enforce hard limits on leverage, exposure and drawdown, backed by an automated kill switch",
+      "Stress-tested 50+ strategies for overfitting, look-ahead bias and costs, promoting only out-of-sample survivors",
     ],
   },
   {
@@ -22,9 +22,9 @@ const work: Entry[] = [
     role: "Senior Engineering Intern",
     dates: "Sep – Dec 2026",
     points: [
-      "Unified four production systems (ERP, portal, Outlook, SharePoint) into one typed graph",
-      "Built the sync layer that keeps 100k+ records current across REST and Microsoft Graph",
-      "Shipped LLM agents that can reconstruct the full history of any transaction",
+      "Shipped LLM agents that reconstruct the full history of any transaction",
+      "Designed the typed graph underneath, unifying 4 production systems (ERP, portal, Outlook, SharePoint)",
+      "Built the incremental, idempotent sync over REST and Microsoft Graph that keeps 100k+ records current",
     ],
   },
   {
@@ -33,7 +33,7 @@ const work: Entry[] = [
     dates: "Jan – Apr 2026",
     points: [
       "Built a robotic picking system with 3D perception and cobot grasping to replace manual work",
-      "Trained a custom segmentation model to 95% mAP50 and deployed it as a distributed service on Azure",
+      "Trained a segmentation model to 95% mAP50 on a custom 5,000+ image dataset and served it on Azure as a distributed service",
     ],
   },
 ]
@@ -44,7 +44,7 @@ const projects: Entry[] = [
     dates: "Oct 2026 – now",
     points: [
       "Real-time scanner across 10+ sportsbooks, Kalshi and Polymarket that de-vigs odds and flags arbitrage",
-      "Calibrated against a full NFL season of settled outcomes to separate real edge from noise",
+      "Calibrated fair prices against a full NFL season of settled outcomes to separate real edge from noise",
     ],
   },
   {
@@ -53,8 +53,8 @@ const projects: Entry[] = [
     points: [
       "Multi-threaded C++ matching engine with O(1) cancels, processing 100k+ orders/sec",
       "Inventory-skewing market maker that cut max drawdown 35% in high-volatility simulations",
-      "Stat arb strategy that finds and trades cointegrated equity pairs",
-      "PyTorch model predicting next-tick direction from order book imbalance and VWAP deviation",
+      "Stat arb on mean-reverting equity pairs found with ADF cointegration tests",
+      "Next-tick direction model built on order book imbalance and VWAP deviation",
     ],
   },
 ]
@@ -66,20 +66,25 @@ const earlier: Entry[] = [
     dates: "2017 – 2025",
     points: [
       "Led a 6-person team to the VEX Robotics World Championship finals, top 2 of 20,000 teams",
-      "Also won a Worlds division and two New Jersey championships",
+      "Won a Worlds division and two New Jersey championships",
     ],
   },
   {
     name: "Hofstra University",
     role: "Research intern, Prof. Edward M. Segal",
     dates: "2024 – 2025",
-    points: ["Wrote the motion control and G-code execution for a large-format 3D printer"],
+    points: [
+      "Wrote the motion control and G-code execution for a large-format 3D printer",
+    ],
   },
   {
     name: "Millburn AI",
     role: "Software director",
     dates: "2021 – 2023",
-    points: ["Only AI team invited to the VEX Worlds showcase, with on-robot vision sped up 5x on a Jetson Nano"],
+    points: [
+      "Only AI team picked for the VEX Worlds showcase",
+      "Sped up on-robot vision 5x on a Jetson Nano",
+    ],
   },
 ]
 
@@ -114,9 +119,7 @@ export default function Home() {
       <p className="muted">Electrical Engineering, University of Waterloo</p>
 
       <p>
-        I trade systematic strategies at StageRail Capital and build LLM agents at Petra Lab X. On the side I'm working
-        on a C++ matching engine and a sports prediction-market arbitrage scanner. Before Waterloo, I captained a
-        robotics team to the VEX World Championship finals.
+        I trade systematic strategies at StageRail Capital and build LLM agents at Petra Lab X. On the side I'm working on a C++ matching engine and a prediction-market arbitrage scanner. Before Waterloo, I captained a robotics team to the VEX World Championship finals.
       </p>
 
       <div className="links">
