@@ -11,10 +11,10 @@ const work: Entry[] = [
     role: "Quantitative Trader",
     dates: "Sep 2026 – now",
     points: [
-      "Run $100K of private capital across systematic equity and futures strategies.",
-      "Rebuilt the research stack into a walk-forward backtesting and paper-to-live promotion pipeline on AWS.",
-      "Hard limits on leverage, exposure and drawdown, enforced by an automated kill switch.",
-      "Stress-tested 50+ strategies for look-ahead bias, overfitting and costs. Only out-of-sample survivors go live.",
+      "Run $100K of private capital across systematic equity and futures strategies",
+      "Rebuilt the research stack into a walk-forward backtesting and paper-to-live pipeline on AWS",
+      "Enforce hard limits on leverage, exposure and drawdown with an automated kill switch",
+      "Stress-tested 50+ strategies for look-ahead bias, overfitting and costs, promoting only out-of-sample survivors",
     ],
   },
   {
@@ -22,9 +22,9 @@ const work: Entry[] = [
     role: "Senior Engineering Intern",
     dates: "Sep – Dec 2026",
     points: [
-      "Designed a typed graph ontology that unifies four production systems: ERP, portal, Outlook and SharePoint.",
-      "Built incremental REST and Microsoft Graph ingestion with idempotent sync, keeping 100k+ records current.",
-      "Shipped LLM agents (tool calling, graph retrieval) that reconstruct the full history of any transaction.",
+      "Designed a typed graph ontology unifying four production systems: ERP, portal, Outlook and SharePoint",
+      "Built incremental REST and Microsoft Graph ingestion with idempotent sync, keeping 100k+ records current",
+      "Shipped LLM agents (tool calling, graph retrieval) that reconstruct any transaction's full history",
     ],
   },
   {
@@ -32,9 +32,9 @@ const work: Entry[] = [
     role: "Software & ML Intern",
     dates: "Jan – Apr 2026",
     points: [
-      "Built a robotic picking pipeline (point clouds, pose estimation, cobot grasping) to replace manual work.",
-      "Labeled a 5,000+ image dataset and trained YOLOv8 instance segmentation to 95% mAP50.",
-      "Deployed inference as a distributed async service on Azure with FastAPI, Celery, Redis and Docker.",
+      "Built a robotic picking pipeline (point clouds, pose estimation, cobot grasping) that replaced manual work",
+      "Built and labeled a 5,000+ image dataset, reaching 95% mAP50 with YOLOv8 instance segmentation",
+      "Scaled inference to production as a distributed async service on Azure (FastAPI, Celery, Redis, Docker)",
     ],
   },
 ]
@@ -44,18 +44,18 @@ const projects: Entry[] = [
     name: "Prediction-market arbitrage",
     dates: "Oct 2026 – now",
     points: [
-      "Real-time scanner over 10+ sportsbooks, Kalshi and Polymarket that de-vigs odds and flags arbitrage.",
-      "Calibrated fair prices against settled outcomes over a full NFL season to separate edge from noise.",
+      "Real-time scanner across 10+ sportsbooks, Kalshi and Polymarket that de-vigs odds and flags arbitrage",
+      "Fair prices calibrated against a full NFL season of settled outcomes to separate real edge from noise",
     ],
   },
   {
     name: "Limit order book & market making",
     dates: "Jan 2026 – now",
     points: [
-      "Multi-threaded C++ matching engine with O(1) cancellation, handling 100k+ orders/sec.",
-      "Inventory-skewing market maker that cut max drawdown 35% in simulated high-volatility regimes.",
-      "Equity stat arb strategy that uses ADF cointegration tests to find mean-reverting pairs.",
-      "PyTorch model for next-tick direction from order book features like imbalance and VWAP deviation.",
+      "Multi-threaded C++ matching engine with O(1) cancellation, processing 100k+ orders/sec",
+      "Inventory-skewing market maker that cut max drawdown 35% in simulated high-volatility regimes",
+      "Equity stat arb strategy using ADF cointegration tests to find mean-reverting pairs",
+      "PyTorch model predicting next-tick direction from order book imbalance and VWAP deviation",
     ],
   },
 ]
@@ -66,22 +66,24 @@ const earlier: Entry[] = [
     role: "Captain, lead programmer",
     dates: "2017 – 2025",
     points: [
-      "VEX Robotics World Championship finalist, top 2 of 20,000 teams. Also a Worlds division champion and 2x New Jersey champion.",
-      "Wrote the drive and autonomous code in C++.",
+      "VEX Robotics World Championship finalist, top 2 of 20,000 teams",
+      "Worlds division champion and 2x New Jersey champion",
+      "Led a 6-person team and wrote the drive and autonomous code in C++",
     ],
   },
   {
     name: "Hofstra University",
     role: "Research intern, Prof. Edward M. Segal",
     dates: "2024 – 2025",
-    points: ["Wrote the motion control and G-code execution for a modular large-format 3D printer."],
+    points: ["Wrote motion control and G-code execution for a modular large-format 3D printer"],
   },
   {
     name: "Millburn AI",
     role: "Software director",
     dates: "2021 – 2023",
     points: [
-      "Only AI team picked for the VEX Worlds showcase. Ran YOLOv5 on a Jetson Nano and took it from 1.5 to 8 FPS with TensorRT.",
+      "Only AI team selected for the VEX Worlds showcase",
+      "Took YOLOv5 on a Jetson Nano from 1.5 to 8 FPS with TensorRT",
     ],
   },
 ]
