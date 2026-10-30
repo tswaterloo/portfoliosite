@@ -9,33 +9,27 @@ const work: Entry[] = [
   {
     name: "StageRail Capital",
     role: "Quantitative Trader",
-    dates: "Sep 2026 – now",
+    dates: "sep 2026 – now",
     text: "$100K multi-asset book, systematic and discretionary, running at a 2.1 Sharpe. Rebuilt the firm's entire research and deployment pipeline.",
   },
   {
     name: "Petra Lab X",
     role: "Senior Engineering Intern",
-    dates: "Sep – Dec 2026",
-    text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
-  },
-  {
-    name: "Petra Lab X",
-    role: "Software & ML Intern",
-    dates: "Jan – Apr 2026",
-    text: "Built a robotic picking system that replaced manual work with a cobot, and shipped it to production.",
+    dates: "2026",
+    text: "First term: built a robotic picking system that replaced manual work with a cobot and shipped it to production. Came back as the senior intern to architect the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
   },
 ]
 
 const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
-    dates: "Oct 2026 – now",
-    text: "A real-time scanner across 10+ sportsbooks, Kalshi and Polymarket that strips out the vig and flags arbitrage.",
+    dates: "oct 2026 – now",
+    text: "Live scanner across 10+ sportsbooks, Kalshi and Polymarket. De-vigs every line, flags mispriced markets in real time, and is calibrated against a full NFL season of settled outcomes.",
   },
   {
     name: "Limit order book & market making",
-    dates: "Jan 2026 – now",
-    text: "A C++ matching engine that handles 100k+ orders/sec, with a market maker on top that cut max drawdown 35% in volatile simulations.",
+    dates: "jan 2026 – now",
+    text: "A matching engine and the strategies that trade on it. Multi-threaded C++ core doing 100k+ orders/sec with O(1) cancels, a market maker that cut max drawdown 35% in volatile regimes, plus stat arb and a next-tick model trained on order book microstructure.",
   },
 ]
 
@@ -44,7 +38,7 @@ const earlier: Entry[] = [
     name: "Robot Revolution",
     role: "Captain, lead programmer",
     dates: "2017 – 2025",
-    text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams worldwide, winning a Worlds division and two New Jersey championships along the way.",
+    text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams. Won a Worlds division and two New Jersey championships along the way.",
   },
   {
     name: "Hofstra University",
