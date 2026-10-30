@@ -10,7 +10,7 @@ const work: Entry[] = [
     name: "StageRail Capital",
     role: "Quantitative Trader",
     dates: "Sep 2026 – now",
-    text: "Running $100K of private capital across systematic equity and futures strategies. I also built the full quant research pipeline behind it, with walk-forward backtesting, paper trading and live deployment on AWS.",
+    text: "Running $100K of private capital across equities, futures, FX and perps, mixing systematic and discretionary strategies at a 2.1 Sharpe. I also built the full quant research pipeline behind it, with walk-forward backtesting, paper trading and live deployment on AWS.",
   },
   {
     name: "Petra Lab X",
@@ -86,7 +86,7 @@ export default function Home() {
       <h1>Tanush Shah</h1>
       <p className="muted">Electrical Engineering, University of Waterloo</p>
 
-      <p>I trade systematic strategies at StageRail Capital and build agentic AI at Petra Lab X.</p>
+      <p>I trade at StageRail Capital and build agentic AI at Petra Lab X.</p>
 
       <div className="links">
         <a href="mailto:t67shah@uwaterloo.ca">t67shah@uwaterloo.ca</a>
