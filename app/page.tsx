@@ -11,10 +11,10 @@ const work: Entry[] = [
     role: "Quantitative Trader",
     dates: "Sep 2026 – now",
     points: [
-      "Run $100K of private capital across systematic equity and futures strategies",
+      "Trade $100K of private capital across systematic equity and futures strategies with full discretion",
       "Rebuilt the research stack into a walk-forward backtesting and paper-to-live pipeline on AWS",
-      "Enforce hard limits on leverage, exposure and drawdown with an automated kill switch",
-      "Stress-tested 50+ strategies for look-ahead bias, overfitting and costs, promoting only out-of-sample survivors",
+      "Built the risk layer: leverage, exposure and drawdown limits backed by an automated kill switch",
+      "Stress-tested 50+ strategies for overfitting, look-ahead bias and costs before any went live",
     ],
   },
   {
@@ -22,9 +22,9 @@ const work: Entry[] = [
     role: "Senior Engineering Intern",
     dates: "Sep – Dec 2026",
     points: [
-      "Designed a typed graph ontology unifying four production systems: ERP, portal, Outlook and SharePoint",
-      "Built incremental REST and Microsoft Graph ingestion with idempotent sync, keeping 100k+ records current",
-      "Shipped LLM agents (tool calling, graph retrieval) that reconstruct any transaction's full history",
+      "Unified four production systems (ERP, portal, Outlook, SharePoint) into one typed graph",
+      "Built the sync layer that keeps 100k+ records current across REST and Microsoft Graph",
+      "Shipped LLM agents that can reconstruct the full history of any transaction",
     ],
   },
   {
@@ -32,9 +32,8 @@ const work: Entry[] = [
     role: "Software & ML Intern",
     dates: "Jan – Apr 2026",
     points: [
-      "Built a robotic picking pipeline (point clouds, pose estimation, cobot grasping) that replaced manual work",
-      "Built and labeled a 5,000+ image dataset, reaching 95% mAP50 with YOLOv8 instance segmentation",
-      "Scaled inference to production as a distributed async service on Azure (FastAPI, Celery, Redis, Docker)",
+      "Built a robotic picking system with 3D perception and cobot grasping to replace manual work",
+      "Trained a custom segmentation model to 95% mAP50 and deployed it as a distributed service on Azure",
     ],
   },
 ]
@@ -45,16 +44,16 @@ const projects: Entry[] = [
     dates: "Oct 2026 – now",
     points: [
       "Real-time scanner across 10+ sportsbooks, Kalshi and Polymarket that de-vigs odds and flags arbitrage",
-      "Fair prices calibrated against a full NFL season of settled outcomes to separate real edge from noise",
+      "Calibrated against a full NFL season of settled outcomes to separate real edge from noise",
     ],
   },
   {
     name: "Limit order book & market making",
     dates: "Jan 2026 – now",
     points: [
-      "Multi-threaded C++ matching engine with O(1) cancellation, processing 100k+ orders/sec",
-      "Inventory-skewing market maker that cut max drawdown 35% in simulated high-volatility regimes",
-      "Equity stat arb strategy using ADF cointegration tests to find mean-reverting pairs",
+      "Multi-threaded C++ matching engine with O(1) cancels, processing 100k+ orders/sec",
+      "Inventory-skewing market maker that cut max drawdown 35% in high-volatility simulations",
+      "Stat arb strategy that finds and trades cointegrated equity pairs",
       "PyTorch model predicting next-tick direction from order book imbalance and VWAP deviation",
     ],
   },
@@ -66,25 +65,21 @@ const earlier: Entry[] = [
     role: "Captain, lead programmer",
     dates: "2017 – 2025",
     points: [
-      "VEX Robotics World Championship finalist, top 2 of 20,000 teams",
-      "Worlds division champion and 2x New Jersey champion",
-      "Led a 6-person team and wrote the drive and autonomous code in C++",
+      "Led a 6-person team to the VEX Robotics World Championship finals, top 2 of 20,000 teams",
+      "Also won a Worlds division and two New Jersey championships",
     ],
   },
   {
     name: "Hofstra University",
     role: "Research intern, Prof. Edward M. Segal",
     dates: "2024 – 2025",
-    points: ["Wrote motion control and G-code execution for a modular large-format 3D printer"],
+    points: ["Wrote the motion control and G-code execution for a large-format 3D printer"],
   },
   {
     name: "Millburn AI",
     role: "Software director",
     dates: "2021 – 2023",
-    points: [
-      "Only AI team selected for the VEX Worlds showcase",
-      "Took YOLOv5 on a Jetson Nano from 1.5 to 8 FPS with TensorRT",
-    ],
+    points: ["Only AI team invited to the VEX Worlds showcase, with on-robot vision sped up 5x on a Jetson Nano"],
   },
 ]
 
@@ -116,15 +111,9 @@ export default function Home() {
   return (
     <main>
       <h1>Tanush Shah</h1>
-      <p className="muted">Electrical Engineering, University of Waterloo</p>
-
       <p>
-        I trade systematic strategies at StageRail Capital and build data and ML systems at Petra Lab X. Most of my
-        side projects are about market microstructure and prediction markets.
-      </p>
-      <p>
-        Before Waterloo I spent eight years in competitive robotics, finishing as a world finalist. I placed 5th of 86
-        in the Waterloo Quant Club trading tournament, and I play a lot of poker and Catan.
+        I'm an electrical engineering student at the University of Waterloo. This term I'm trading at StageRail
+        Capital and building data and AI systems at Petra Lab X.
       </p>
 
       <div className="links">
