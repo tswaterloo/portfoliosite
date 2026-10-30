@@ -10,7 +10,7 @@ const work: Entry[] = [
     name: "StageRail Capital",
     role: "Quantitative Trader",
     dates: "Sep 2026 – now",
-    text: "Running $100K of private capital across equities, futures, FX and perps, mixing systematic and discretionary strategies at a 2.1 Sharpe. I also built the full quant research pipeline behind it, with walk-forward backtesting, paper trading and live deployment on AWS.",
+    text: "Running a $100K multi-asset book across systematic and discretionary strategies. The book has a 2.1 Sharpe, and I built the quant research stack it runs on.",
   },
   {
     name: "Petra Lab X",
