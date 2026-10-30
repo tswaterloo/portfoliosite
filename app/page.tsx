@@ -16,7 +16,7 @@ const work: Entry[] = [
     name: "Petra Lab X",
     role: "Senior Engineering Intern",
     dates: "2026",
-    text: "First term: built a robotic picking system that replaced manual work with a cobot and shipped it to production. Came back as the senior intern to architect the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
+    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production. Then architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
   },
 ]
 
