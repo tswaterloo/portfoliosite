@@ -1,5 +1,5 @@
 type Entry = {
-  name: string
+  name?: string
   role?: string
   dates: string
   text: string
@@ -14,9 +14,14 @@ const work: Entry[] = [
   },
   {
     name: "Petra Lab X",
+    role: "Software & ML Intern",
+    dates: "jan – apr 2026",
+    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production.",
+  },
+  {
     role: "Senior Engineering Intern",
-    dates: "2026",
-    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production. Then architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
+    dates: "sep – dec 2026",
+    text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
   },
 ]
 
@@ -24,12 +29,12 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct 2026 – now",
-    text: "Live scanner across 10+ sportsbooks, Kalshi and Polymarket. De-vigs every line, flags mispriced markets in real time, and is calibrated against a full NFL season of settled outcomes.",
+    text: "Pulls live odds from 10+ sportsbooks, Kalshi and Polymarket, strips the vig and cross-prices every market to catch arbitrage in real time. Its fair values were tested against a full NFL season of settled games, which is how it tells real edge from noise.",
   },
   {
     name: "Limit order book & market making",
     dates: "jan 2026 – now",
-    text: "A matching engine and the strategies that trade on it. Multi-threaded C++ core doing 100k+ orders/sec with O(1) cancels, a market maker that cut max drawdown 35% in volatile regimes, plus stat arb and a next-tick model trained on order book microstructure.",
+    text: "A multi-threaded C++ matching engine that clears 100k+ orders a second with O(1) cancels, and the strategies that trade against it: an inventory-skewing market maker that cut max drawdown 35% in volatile regimes, a cointegration-based stat arb, and a model that calls the next tick from order book microstructure.",
   },
 ]
 
@@ -59,11 +64,11 @@ function Section({ title, entries }: { title: string; entries: Entry[] }) {
     <section>
       <h2>{title}</h2>
       {entries.map((e) => (
-        <div className="entry" key={e.name + e.dates}>
+        <div className={e.name ? "entry" : "entry entry-cont"} key={e.role + e.dates}>
           <div className="entry-head">
             <span>
-              {e.name}
-              {e.role && <span className="entry-role"> · {e.role}</span>}
+              {e.name ?? <span className="entry-role">{e.role}</span>}
+              {e.name && e.role && <span className="entry-role"> · {e.role}</span>}
             </span>
             <span className="entry-dates">{e.dates}</span>
           </div>
@@ -81,9 +86,8 @@ export default function Home() {
       <p className="muted">Electrical Engineering, University of Waterloo</p>
 
       <p>
-        Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X. On the side, a C++
-        matching engine and a prediction-market arbitrage scanner. Before Waterloo, eight years of competitive
-        robotics, ending in a VEX World Championship final.
+        Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X. Mostly drawn to
+        markets, and to systems that have to be both fast and right.
       </p>
 
       <div className="links">

@@ -79,6 +79,10 @@ a:hover {
   margin-bottom: 1.75rem;
 }
 
+.entry-cont {
+  margin-top: -0.75rem;
+}
+
 .entry-text {
   margin: 0.25rem 0 0;
 }
