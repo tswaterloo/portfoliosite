@@ -21,7 +21,7 @@ const work: Entry[] = [
   {
     role: "Software & ML Intern",
     dates: "jan – apr ’26",
-    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production, among other things",
+    text: "Built a robotic picking system to replace manual work with a cobot and shipped it to production, among other things",
   },
 ]
 
