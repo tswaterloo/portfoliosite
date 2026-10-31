@@ -29,12 +29,12 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct ’26 – now",
-    text: "Low-latency engine that prices every sports and event contract across 10+ sportsbooks, Kalshi and Polymarket, and trades the gaps between them",
+    text: "Pulls every sports and event contract from 10+ sportsbooks, Kalshi and Polymarket into a single fair-value model, and trades wherever a venue disagrees with it",
   },
   {
     name: "Limit order book & market making",
     dates: "jan ’26 – now",
-    text: "A market maker, pairs stat arb and next-tick model, all running on my own C++ matching engine (100k+ orders a second, O(1) cancels). The market maker cut max drawdown 35% in volatile regimes",
+    text: "My own exchange, written in C++, matching 100k+ orders a second with O(1) cancels. Its market maker cut max drawdown 35% in volatile regimes, and it also runs a pairs stat arb and a next-tick model",
   },
 ]
 
