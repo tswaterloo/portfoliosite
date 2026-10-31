@@ -29,7 +29,7 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct ’26 – now",
-    text: "Real-time arbitrage engine spanning 10+ sportsbooks, Kalshi and Polymarket. De-vigs every line and catches cross-venue mispricings the moment they appear, validated on a full NFL season of settled games",
+    text: "Real-time arbitrage engine across 10+ sportsbooks, Kalshi and Polymarket. Strips the vig from every line, rebuilds the true odds and catches the moment venues disagree",
   },
   {
     name: "Limit order book & market making",
