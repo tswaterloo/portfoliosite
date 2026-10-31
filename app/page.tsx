@@ -9,32 +9,32 @@ const work: Entry[] = [
   {
     name: "StageRail Capital",
     role: "Quantitative Trader",
-    dates: "sep 2026 – now",
+    dates: "sep ’26 – now",
     text: "$100K multi-asset book, systematic and discretionary, running at a 2.1 Sharpe. Rebuilt the firm's entire research and deployment pipeline.",
   },
   {
     name: "Petra Lab X",
-    role: "Software & ML Intern",
-    dates: "jan – apr 2026",
-    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production.",
+    role: "Senior Engineering Intern",
+    dates: "sep – dec ’26",
+    text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
   },
   {
-    role: "Senior Engineering Intern",
-    dates: "sep – dec 2026",
-    text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
+    role: "Software & ML Intern",
+    dates: "jan – apr ’26",
+    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production.",
   },
 ]
 
 const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
-    dates: "oct 2026 – now",
-    text: "Pulls live odds from 10+ sportsbooks, Kalshi and Polymarket, strips the vig and cross-prices every market to catch arbitrage in real time. Its fair values were tested against a full NFL season of settled games, which is how it tells real edge from noise.",
+    dates: "oct ’26 – now",
+    text: "Watches 10+ sportsbooks, Kalshi and Polymarket at once, de-vigs each line into a fair probability, and flags any outcome priced inconsistently across venues. Backtested against a full NFL season of settled games.",
   },
   {
     name: "Limit order book & market making",
-    dates: "jan 2026 – now",
-    text: "A multi-threaded C++ matching engine that clears 100k+ orders a second with O(1) cancels, and the strategies that trade against it: an inventory-skewing market maker that cut max drawdown 35% in volatile regimes, a cointegration-based stat arb, and a model that calls the next tick from order book microstructure.",
+    dates: "jan ’26 – now",
+    text: "Wrote a limit order book and matching engine in C++ that clears 100k+ orders a second with O(1) cancels, then built strategies to trade on it. The market maker skews quotes by inventory and cut max drawdown 35% in volatile regimes. There's also a stat arb on cointegrated pairs and a model that predicts the next tick from order book microstructure.",
   },
 ]
 
@@ -42,19 +42,19 @@ const earlier: Entry[] = [
   {
     name: "Robot Revolution",
     role: "Captain, lead programmer",
-    dates: "2017 – 2025",
+    dates: "’17 – ’25",
     text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams. Won a Worlds division and two New Jersey championships along the way.",
   },
   {
     name: "Hofstra University",
     role: "Research intern",
-    dates: "2024 – 2025",
+    dates: "’24 – ’25",
     text: "Designed, built and programmed a modular large-format gantry 3D printer, end to end.",
   },
   {
     name: "Millburn AI",
     role: "Software director",
-    dates: "2021 – 2023",
+    dates: "’21 – ’23",
     text: "The only AI team picked for the VEX Worlds showcase. Made the robot's onboard AI 5x faster on a Jetson Nano.",
   },
 ]
