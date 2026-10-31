@@ -34,7 +34,7 @@ const projects: Entry[] = [
   {
     name: "Limit order book & market making",
     dates: "jan ’26 – now",
-    text: "A C++ exchange from scratch: order book and matching engine clearing 100k+ orders a second with O(1) cancels. On top of it, a market maker that cut max drawdown 35% in volatile regimes, a pairs stat arb, and a next-tick predictor trained on microstructure",
+    text: "Built a C++ exchange from scratch, clearing 100k+ orders a second with O(1) cancels. Used it to develop a market maker that cut max drawdown 35% in volatile regimes, plus a pairs stat arb and a next-tick predictor trained on microstructure",
   },
 ]
 
