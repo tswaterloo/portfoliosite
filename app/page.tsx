@@ -10,18 +10,18 @@ const work: Entry[] = [
     name: "StageRail Capital",
     role: "Quantitative Trader",
     dates: "sep ’26 – now",
-    text: "$100K multi-asset book, systematic and discretionary, running at a 2.1 Sharpe. Rebuilt the firm's entire research and deployment pipeline.",
+    text: "$100K multi-asset book, systematic and discretionary, running at a 2.1 Sharpe. Rebuilt the firm's entire research and deployment pipeline",
   },
   {
     name: "Petra Lab X",
     role: "Senior Engineering Intern",
     dates: "sep – dec ’26",
-    text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records.",
+    text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records",
   },
   {
     role: "Software & ML Intern",
     dates: "jan – apr ’26",
-    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production, among other things.",
+    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production, among other things",
   },
 ]
 
@@ -29,12 +29,12 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct ’26 – now",
-    text: "Real-time arbitrage engine spanning 10+ sportsbooks, Kalshi and Polymarket. De-vigs every line and catches cross-venue mispricings the moment they appear, validated on a full NFL season of settled games.",
+    text: "Real-time arbitrage engine spanning 10+ sportsbooks, Kalshi and Polymarket. De-vigs every line and catches cross-venue mispricings the moment they appear, validated on a full NFL season of settled games",
   },
   {
     name: "Limit order book & market making",
     dates: "jan ’26 – now",
-    text: "A C++ exchange from scratch: order book and matching engine clearing 100k+ orders a second with O(1) cancels. On top of it, a market maker that cut max drawdown 35% in volatile regimes, a pairs stat arb, and a next-tick predictor trained on microstructure.",
+    text: "A C++ exchange from scratch: order book and matching engine clearing 100k+ orders a second with O(1) cancels. On top of it, a market maker that cut max drawdown 35% in volatile regimes, a pairs stat arb, and a next-tick predictor trained on microstructure",
   },
 ]
 
@@ -43,19 +43,19 @@ const earlier: Entry[] = [
     name: "Robot Revolution",
     role: "Captain, lead programmer",
     dates: "’17 – ’25",
-    text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams. Won a Worlds division and two New Jersey championships along the way.",
+    text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams. Won a Worlds division and two New Jersey championships along the way",
   },
   {
     name: "Hofstra University",
     role: "Research intern",
     dates: "’24 – ’25",
-    text: "Designed, built and programmed a modular large-format gantry 3D printer, end to end.",
+    text: "Designed, built and programmed a modular large-format gantry 3D printer, end to end",
   },
   {
     name: "Millburn AI",
     role: "Software director",
     dates: "’21 – ’23",
-    text: "The only AI team picked for the VEX Worlds showcase. Made the robot's onboard AI 5x faster on a Jetson Nano.",
+    text: "The only AI team picked for the VEX Worlds showcase. Made the robot's onboard AI 5x faster on a Jetson Nano",
   },
 ]
 
@@ -85,10 +85,7 @@ export default function Home() {
       <h1>Tanush Shah</h1>
       <p className="muted">Electrical Engineering, University of Waterloo</p>
 
-      <p>
-        Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X. Mostly drawn to
-        markets, and to systems that have to be both fast and right.
-      </p>
+      <p>Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X.</p>
 
       <div className="links">
         <a href="mailto:t67shah@uwaterloo.ca">t67shah@uwaterloo.ca</a>
