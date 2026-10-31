@@ -16,7 +16,7 @@ const work: Entry[] = [
     name: "Petra Lab X",
     role: "AI engineering intern",
     dates: "sep – dec ’26",
-    text: "Architected the company's agentic AI platform: one knowledge graph across all of its core systems, and agents that reason over it to reconstruct any transaction end to end",
+    text: "Architected the company's agentic ontology: 15 enterprise systems unified into one live knowledge graph of 6.5M+ objects. AI agents investigate and act on the business through it, and every answer they give is verified down to the source record",
   },
   {
     role: "robotics & ML intern",
@@ -29,12 +29,12 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct ’26 – now",
-    text: "Pulls every sports and event contract from 10+ sportsbooks, Kalshi and Polymarket into a single fair-value model, and trades wherever a venue disagrees with it",
+    text: "Treats 10+ sportsbooks, Kalshi and Polymarket as a single market. One model prices every live contract, and capital routes automatically to whichever venue is wrong",
   },
   {
     name: "Limit order book & market making",
     dates: "jan ’26 – now",
-    text: "My own exchange, written in C++, matching 100k+ orders a second with O(1) cancels. Its market maker cut max drawdown 35% in volatile regimes, and it also runs a pairs stat arb and a next-tick model",
+    text: "A full electronic exchange in C++, matching 100k+ orders a second with O(1) cancels. Its market maker cut max drawdown 35% in volatile regimes, alongside a pairs stat arb and a next-tick model",
   },
 ]
 
