@@ -8,18 +8,18 @@ type Entry = {
 const work: Entry[] = [
   {
     name: "StageRail Capital",
-    role: "Quantitative Trader",
+    role: "Quantitative trader",
     dates: "sep ’26 – now",
     text: "$100K multi-asset book, systematic and discretionary, running at a 2.1 Sharpe. Rebuilt the firm's entire research and deployment pipeline",
   },
   {
     name: "Petra Lab X",
-    role: "Senior Engineering Intern",
+    role: "Senior engineering intern",
     dates: "sep – dec ’26",
     text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records",
   },
   {
-    role: "Software & ML Intern",
+    role: "Software & ML intern",
     dates: "jan – apr ’26",
     text: "Built a full production system to replace manual picking with cobots, from perception to grasp, among other things",
   },
@@ -85,10 +85,7 @@ export default function Home() {
       <h1>Tanush Shah</h1>
       <p className="muted">Electrical Engineering, University of Waterloo</p>
 
-      <p>
-        Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X. Happiest when something
-        is mispriced.
-      </p>
+      <p>Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X.</p>
 
       <div className="links">
         <a href="mailto:t67shah@uwaterloo.ca">t67shah@uwaterloo.ca</a>
