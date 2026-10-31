@@ -21,7 +21,7 @@ const work: Entry[] = [
   {
     role: "Software & ML Intern",
     dates: "jan – apr ’26",
-    text: "Built a robotic picking system to replace manual work with a cobot and shipped it to production, among other things",
+    text: "Built a full production system to replace manual picking with cobots, from perception to grasp, among other things",
   },
 ]
 
@@ -29,7 +29,7 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct ’26 – now",
-    text: "Real-time arbitrage engine across 10+ sportsbooks, Kalshi and Polymarket. Strips the vig from every line, rebuilds the true odds and catches the moment venues disagree",
+    text: "An arbitrage engine for sports and prediction markets. Streams prices from 10+ sportsbooks, Kalshi and Polymarket, strips the vig to recover each venue's true odds, and finds the gaps between them before they close",
   },
   {
     name: "Limit order book & market making",
@@ -85,7 +85,10 @@ export default function Home() {
       <h1>Tanush Shah</h1>
       <p className="muted">Electrical Engineering, University of Waterloo</p>
 
-      <p>Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X.</p>
+      <p>
+        Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X. Happiest when something
+        is mispriced.
+      </p>
 
       <div className="links">
         <a href="mailto:t67shah@uwaterloo.ca">t67shah@uwaterloo.ca</a>
