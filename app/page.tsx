@@ -21,7 +21,7 @@ const work: Entry[] = [
   {
     role: "Software & ML Intern",
     dates: "jan – apr ’26",
-    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production.",
+    text: "Built a robotic picking system that replaced manual work with a cobot and shipped it to production, among other things.",
   },
 ]
 
@@ -29,12 +29,12 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct ’26 – now",
-    text: "Live arbitrage across sportsbooks and prediction markets. Pulls lines from 10+ books plus Kalshi and Polymarket, de-vigs them into true probabilities, and surfaces risk-free spreads whenever the same outcome is priced differently across venues. Calibrated on a full NFL season of settled games.",
+    text: "Real-time arbitrage engine spanning 10+ sportsbooks, Kalshi and Polymarket. De-vigs every line and catches cross-venue mispricings the moment they appear, validated on a full NFL season of settled games.",
   },
   {
     name: "Limit order book & market making",
     dates: "jan ’26 – now",
-    text: "A C++ exchange from scratch: order book and matching engine clearing 100k+ orders a second with O(1) cancels. Then the strategies to trade on it: a market maker that cut max drawdown 35% in volatile regimes, pairs stat arb, and a next-tick predictor trained on microstructure.",
+    text: "A C++ exchange from scratch: order book and matching engine clearing 100k+ orders a second with O(1) cancels. On top of it, a market maker that cut max drawdown 35% in volatile regimes, a pairs stat arb, and a next-tick predictor trained on microstructure.",
   },
 ]
 
