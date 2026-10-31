@@ -14,12 +14,12 @@ const work: Entry[] = [
   },
   {
     name: "Petra Lab X",
-    role: "Senior engineering intern",
+    role: "AI engineering intern",
     dates: "sep – dec ’26",
     text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records",
   },
   {
-    role: "Software & ML intern",
+    role: "Robotics & ML intern",
     dates: "jan – apr ’26",
     text: "Built a full production system to replace manual picking with cobots, from perception to grasp, among other things",
   },
