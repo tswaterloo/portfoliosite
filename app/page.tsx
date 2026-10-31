@@ -16,7 +16,7 @@ const work: Entry[] = [
     name: "Petra Lab X",
     role: "AI engineering intern",
     dates: "sep – dec ’26",
-    text: "Built an agentic ontology over every system the company uses. Agents reason across it and back every claim with a source record",
+    text: "Built the agentic ontology the company runs on, connecting every system it has into one live graph. Agents trace any order or cost back to the emails and records behind it, and flag problems before anyone notices",
   },
   {
     role: "robotics & ML intern",
