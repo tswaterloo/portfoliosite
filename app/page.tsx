@@ -16,7 +16,7 @@ const work: Entry[] = [
     name: "Petra Lab X",
     role: "AI engineering intern",
     dates: "sep – dec ’26",
-    text: "Built the agentic ontology the company runs on, connecting every system it has into one live graph. Agents trace any order or cost back to the emails and records behind it, and flag problems before anyone notices",
+    text: "Built an agentic ontology across every system in the company. It traces any order or cost back to the emails and records behind it, and flags problems before anyone notices",
   },
   {
     role: "robotics & ML intern",
@@ -29,7 +29,7 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct ’26 – now",
-    text: "Autonomous system that prices every live sports and event contract off one no-vig fair value across 10+ sportsbooks, Kalshi and Polymarket. When venues disagree, it buys the cheap side, sells the rich one and keeps the spread",
+    text: "Autonomous system that prices every live sports and event contract off one no-vig fair value across 10+ sportsbooks, Kalshi and Polymarket, and trades the spread whenever a venue is off",
   },
   {
     name: "Limit order book & market making",
