@@ -29,12 +29,12 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct ’26 – now",
-    text: "Watches 10+ sportsbooks, Kalshi and Polymarket at once, de-vigs each line into a fair probability, and flags any outcome priced inconsistently across venues. Backtested against a full NFL season of settled games.",
+    text: "Live arbitrage across sportsbooks and prediction markets. Pulls lines from 10+ books plus Kalshi and Polymarket, de-vigs them into true probabilities, and surfaces risk-free spreads whenever the same outcome is priced differently across venues. Calibrated on a full NFL season of settled games.",
   },
   {
     name: "Limit order book & market making",
     dates: "jan ’26 – now",
-    text: "Wrote a limit order book and matching engine in C++ that clears 100k+ orders a second with O(1) cancels, then built strategies to trade on it. The market maker skews quotes by inventory and cut max drawdown 35% in volatile regimes. There's also a stat arb on cointegrated pairs and a model that predicts the next tick from order book microstructure.",
+    text: "A C++ exchange from scratch: order book and matching engine clearing 100k+ orders a second with O(1) cancels. Then the strategies to trade on it: a market maker that cut max drawdown 35% in volatile regimes, pairs stat arb, and a next-tick predictor trained on microstructure.",
   },
 ]
 
