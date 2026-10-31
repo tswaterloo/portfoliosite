@@ -85,7 +85,7 @@ export default function Home() {
       <h1>Tanush Shah</h1>
       <p className="muted">Electrical Engineering, University of Waterloo</p>
 
-      <p>Trading a multi-asset book and building agentic AI.</p>
+      <p>Running a multi-asset book at a 2.1 Sharpe and building agentic AI</p>
 
       <div className="links">
         <a href="mailto:t67shah@uwaterloo.ca">t67shah@uwaterloo.ca</a>
