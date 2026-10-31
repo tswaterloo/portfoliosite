@@ -8,7 +8,7 @@ type Entry = {
 const work: Entry[] = [
   {
     name: "StageRail Capital",
-    role: "Quantitative trader",
+    role: "quantitative trader",
     dates: "sep ’26 – now",
     text: "$100K multi-asset book, systematic and discretionary, running at a 2.1 Sharpe. Rebuilt the firm's entire research and deployment pipeline",
   },
@@ -19,7 +19,7 @@ const work: Entry[] = [
     text: "Architected the company's agentic AI platform: a knowledge graph unifying its core systems, with LLM agents that can trace any transaction across 100k+ live records",
   },
   {
-    role: "Robotics & ML intern",
+    role: "robotics & ML intern",
     dates: "jan – apr ’26",
     text: "Built a full production system to replace manual picking with cobots, from perception to grasp, among other things",
   },
@@ -41,19 +41,19 @@ const projects: Entry[] = [
 const earlier: Entry[] = [
   {
     name: "Robot Revolution",
-    role: "Captain, lead programmer",
+    role: "captain, lead programmer",
     dates: "’17 – ’25",
     text: "Led the team to the VEX World Championship finals, top 2 of 20,000 teams. Won a Worlds division and two New Jersey championships along the way",
   },
   {
     name: "Hofstra University",
-    role: "Research intern",
+    role: "research intern",
     dates: "’24 – ’25",
     text: "Designed, built and programmed a modular large-format gantry 3D printer, end to end",
   },
   {
     name: "Millburn AI",
-    role: "Software director",
+    role: "software director",
     dates: "’21 – ’23",
     text: "The only AI team picked for the VEX Worlds showcase. Made the robot's onboard AI 5x faster on a Jetson Nano",
   },
@@ -85,16 +85,16 @@ export default function Home() {
       <h1>Tanush Shah</h1>
       <p className="muted">Electrical Engineering, University of Waterloo</p>
 
-      <p>Trading a multi-asset book at StageRail Capital and building agentic AI at Petra Lab X.</p>
+      <p>Trading a multi-asset book and building agentic AI.</p>
 
       <div className="links">
         <a href="mailto:t67shah@uwaterloo.ca">t67shah@uwaterloo.ca</a>
         <a href="https://linkedin.com/in/tanush-shah17">LinkedIn</a>
       </div>
 
-      <Section title="Work" entries={work} />
-      <Section title="Projects" entries={projects} />
-      <Section title="Earlier" entries={earlier} />
+      <Section title="work" entries={work} />
+      <Section title="projects" entries={projects} />
+      <Section title="earlier" entries={earlier} />
     </main>
   )
 }
