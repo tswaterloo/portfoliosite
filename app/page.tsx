@@ -29,7 +29,7 @@ const projects: Entry[] = [
   {
     name: "Prediction-market arbitrage",
     dates: "oct ’26 – now",
-    text: "Autonomous system that prices every live sports and event contract off one no-vig fair value across 10+ sportsbooks, Kalshi and Polymarket, and trades the spread whenever a venue is off",
+    text: "Prices every sports and event market across 10+ sportsbooks, Kalshi and Polymarket against one vig-free fair value, then trades the mispricings automatically",
   },
   {
     name: "Limit order book & market making",
